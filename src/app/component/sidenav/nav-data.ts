@@ -3,37 +3,38 @@ import { Component } from "@angular/core";
 export const navbarData = [
     {
         routeLink: 'dashboard',
-        icon: 'fal fa-home',
+        //icon: 'fas fa-tachometer-alt',
+        icon: 'fal fa-tachometer-alt',
         label: 'DashBoard'
     },
     {
-        routeLink: 'products',
-        icon: 'fal fa-box-open',
-        label: 'Products'
+        routeLink: 'projects',
+        icon: 'fal fa-project-diagram',
+        label: 'Proyectos'
     },
-    {
-        routeLink: 'statistics',
-        icon: 'fal fa-chart-bar',
-        label: 'Statistics'
+    { 
+        routeLink: 'admincontact',
+        icon: 'fal fa-comment-alt',
+        label: 'Consulta Admin'
     },
-    {
-        routeLink: 'coupens',
-        icon: 'fal fa-tags',
-        label: 'Coupens'
+    { 
+        routeLink: 'leads',
+        icon: 'fal fa-address-card',
+        label: 'Leads'
     },
-    {
-        routeLink: 'pages',
-        icon: 'fal fa-file',
-        label: 'Pages'
+    { 
+        routeLink: 'invoices',
+        icon: 'fal fa-file-invoice',
+        label: 'Facturas'
     },
-    {
-        routeLink: 'media',
-        icon: 'fal fa-camera',
-        label: 'Media'
+    { 
+        routeLink: 'infor',
+        icon: 'fal fa-info-circle',
+        label: 'Informacion'
     },
     {
         routeLink: 'settings',
         icon: 'fal fa-cog',
-        label: 'Ssettings'
+        label: 'Configuración'
     }
 ]

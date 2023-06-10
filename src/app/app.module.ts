@@ -8,12 +8,12 @@ import { ModulosAngularMaterials } from './material.module';
 import { SidenavComponent } from './component/sidenav/sidenav.component';
 import { BodyComponent } from './component/body/body.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
-import { ProductsComponent } from './component/products/products.component';
-import { StatisticsComponent } from './component/statistics/statistics.component';
-import { CoupensComponent } from './component/coupens/coupens.component';
-import { PagesComponent } from './component/pages/pages.component';
-import { MediaComponent } from './component/media/media.component';
 import { SettingsComponent } from './component/settings/settings.component';
+import { ProjectsComponent } from './component/projects/projects.component';
+import { AdmincontactComponent } from './component/admincontact/admincontact.component';
+import { LeadsComponent } from './component/leads/leads.component';
+import { InvoiceComponent } from './component/invoice/invoice.component';
+import { InforComponent } from './component/infor/infor.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +21,12 @@ import { SettingsComponent } from './component/settings/settings.component';
     SidenavComponent,
     BodyComponent,
     DashboardComponent,
-    ProductsComponent,
-    StatisticsComponent,
-    CoupensComponent,
-    PagesComponent,
-    MediaComponent,
-    SettingsComponent
+    SettingsComponent,
+    ProjectsComponent,
+    AdmincontactComponent,
+    LeadsComponent,
+    InvoiceComponent,
+    InforComponent
   ],
   imports: [
     BrowserModule,

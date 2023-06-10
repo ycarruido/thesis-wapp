@@ -1,21 +1,21 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
-import { ProductsComponent } from './component/products/products.component';
-import { StatisticsComponent } from './component/statistics/statistics.component';
-import { CoupensComponent } from './component/coupens/coupens.component';
-import { PagesComponent } from './component/pages/pages.component';
-import { MediaComponent } from './component/media/media.component';
+import { LeadsComponent } from './component/leads/leads.component';
 import { SettingsComponent } from './component/settings/settings.component';
+import { ProjectsComponent } from './component/projects/projects.component';
+import { AdmincontactComponent } from './component/admincontact/admincontact.component';
+import { InvoiceComponent } from './component/invoice/invoice.component';
+import { InforComponent } from './component/infor/infor.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent }, 
-  { path: 'products', component: ProductsComponent },
-  { path: 'statistics', component: StatisticsComponent },
-  { path: 'coupens', component: CoupensComponent },
-  { path: 'pages', component: PagesComponent },
-  { path: 'media', component: MediaComponent },
+  { path: 'projects', component: ProjectsComponent },
+  { path: 'admincontact', component: AdmincontactComponent },
+  { path: 'leads', component: LeadsComponent },
+  { path: 'invoices', component: InvoiceComponent },
+  { path: 'infor', component: InforComponent },
   { path: 'settings', component: SettingsComponent } 
 ];
 
