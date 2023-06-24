@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-//import { ModulosAngularMaterials } from './material.module';
+import { ModulosAngularMaterials } from './material.module';
 import { SidenavComponent } from './component/sidenav/sidenav.component';
 import { BodyComponent } from './component/body/body.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
@@ -32,7 +32,7 @@ import { InforComponent } from './component/infor/infor.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    //ModulosAngularMaterials,
+    ModulosAngularMaterials,
     BrowserAnimationsModule
   ],
   providers: [],
